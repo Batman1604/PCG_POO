@@ -120,9 +120,3 @@ class UrnaEletronica:
         """Limpa os widgets da interface."""
         for widget in self.master.winfo_children():
             widget.destroy()
-
-# Inicializando a aplicação
-if __name__ == "__main__":
-    root = tk.Tk()
-    urna = UrnaEletronica(root)
-    root.mainloop()
